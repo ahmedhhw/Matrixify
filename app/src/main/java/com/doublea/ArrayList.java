@@ -8,10 +8,16 @@ import java.util.Iterator;
 	 * @param <T> Type of data of arraylist
 	 */
 	public class ArrayList<T> implements Iterable<T>{
+		@Override
+		public String toString() {
+			String temp = "";
+			for (T element: this) temp+= element.toString() + " ";
+			return temp;
+		}
 		private T[] elements;
 		private int numElements;
 
-		public ArrayList() {
+		protected ArrayList() {
 			elements = (T[]) (new Object[100]);
 			numElements = 0;
 		}
@@ -72,7 +78,7 @@ import java.util.Iterator;
 		 * @return Returns elements array with double its original size (But same
 		 *         content)
 		 */
-		public T[] expand(T[] elements) {
+		private T[] expand(T[] elements) {
 			T[] elements2 = (T[]) new Object[(elements.length) * 2];
 			for (int i = 0; i < elements.length; i++)
 				elements2[i] = elements[i];
