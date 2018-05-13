@@ -56,6 +56,7 @@ public class Rational {
     }
 
     /**
+     * @TODO Improve effeciency
      * Finds the greatest common factor between top and bottom
      * @return greatest common factor
      */
