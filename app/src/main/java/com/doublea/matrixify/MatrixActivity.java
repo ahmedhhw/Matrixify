@@ -15,7 +15,6 @@ public class MatrixActivity extends AppCompatActivity {
     private MatrixOperations matrix;
     private Button addRow;
     private Button reduce;
-    private Button space;
     private EditText input;
     private TextView communicate;
     private TextView output;
@@ -32,7 +31,6 @@ public class MatrixActivity extends AppCompatActivity {
         //Initiating widgets
         addRow = findViewById(R.id.btnRow);
         reduce = findViewById(R.id.btnReduce);
-        space = findViewById(R.id.btnSpace);
         input = findViewById(R.id.txtIn);
         communicate = findViewById(R.id.txtCommWithUser);
         output = findViewById(R.id.txtOutPut);
@@ -41,11 +39,6 @@ public class MatrixActivity extends AppCompatActivity {
         //Doing the Commands
         addRow.setOnClickListener(e -> addNewRow());
         reduce.setOnClickListener(e -> reduce());
-        space.setOnClickListener(e -> addSpace());
-    }
-
-    private void addSpace() {
-        input.setText(input.getText() + " ");
     }
 
     private void addNewRow() {

@@ -42,15 +42,6 @@
         android:layout_marginTop="21dp"
         android:text="" />
 
-    <Button
-        android:id="@+id/btnSpace"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="213dp"
-        android:text="space" />
-
     <EditText
         android:id="@+id/txtIn"
         android:layout_width="wrap_content"
@@ -59,6 +50,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="54dp"
         android:ems="10"
-        android:inputType="number" />
+        android:inputType="textNoSuggestions" />
 
 </RelativeLayout>

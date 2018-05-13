@@ -10,7 +10,7 @@ public class matrixTest {
 
     @Test
     public void reduce() {
-       
+
     }
 
     @Test
