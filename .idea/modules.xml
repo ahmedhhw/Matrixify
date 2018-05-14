@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Matrixify.iml" filepath="$PROJECT_DIR$/Matrixify.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/matrixify.iml" filepath="$PROJECT_DIR$/.idea/matrixify.iml" />
     </modules>
   </component>
 </project>
