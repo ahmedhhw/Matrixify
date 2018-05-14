@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import com.doublea.*;
 import com.doublea.ArrayList;
+import com.doublea.MatrixOperations;
 import com.doublea.Rational;
 
 public class MatrixActivity extends AppCompatActivity {
