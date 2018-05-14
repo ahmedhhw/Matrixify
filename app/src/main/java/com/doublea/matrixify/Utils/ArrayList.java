@@ -1,4 +1,4 @@
-package com.doublea;
+package com.doublea.matrixify.Utils;
 import java.util.Iterator;
 
 /**

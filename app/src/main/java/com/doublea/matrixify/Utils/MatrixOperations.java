@@ -1,12 +1,8 @@
-package com.doublea;
+package com.doublea.matrixify.Utils;
 
-
-import android.widget.ArrayAdapter;
-
-import java.util.Scanner;
 
 public class MatrixOperations {
-    private ArrayList<ArrayList<Rational>> matrix;
+    public ArrayList<ArrayList<Rational>> matrix;
 
     public void initiateMatrix() {
         matrix = new ArrayList<>();
