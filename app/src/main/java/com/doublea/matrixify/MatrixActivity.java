@@ -57,5 +57,6 @@ public class MatrixActivity extends AppCompatActivity {
         matrix.reduce();
         input.setText("");
         output.setText(matrix.print());
+        matrix.initiateMatrix();
     }
 }
